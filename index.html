@@ -9,6 +9,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   
+	
 
   
   <style>
@@ -104,15 +105,15 @@
                          </div>
 						 
                          <div class="form-group">
-                            <label class="col-md-6 control-label"> Jours Fériées</label>
+                            <label class="col-md-6 control-label"> Jours FÃ©riÃ©es</label>
                             <div class="col-md-8 inputGroupContainer">
-                               <div class="input-group"><span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span><input id="jf" name="" placeholder="Jours fériés"  class="form-control"  value="" type="text"></div>
+                               <div class="input-group"><span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span><input id="jf" name="" placeholder="Jours fÃ©riÃ©s"  class="form-control"  value="" type="text"></div>
                             </div>
                          </div>
                          <div class="form-group">
-                            <label class="col-md-6 control-label"> Jours présents</label>
+                            <label class="col-md-6 control-label"> Jours prÃ©sents</label>
                             <div class="col-md-8 inputGroupContainer">
-                               <div class="input-group"><span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span><input id="jourp" name="jp" placeholder="Jours de présence" class="form-control" value="" type="text"></div>
+                               <div class="input-group"><span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span><input id="jourp" name="jp" placeholder="Jours de prÃ©sence" class="form-control" value="" type="text"></div>
                             </div>
                          </div>
 						 
@@ -145,8 +146,8 @@
                                <div class="input-group">
                                   <span class="input-group-addon" style="max-width: 100%;"><i class="glyphicon glyphicon-list"></i></span>
                                   <select class="selectpicker form-control">
-                                     <option>Célibataire</option>
-                                     <option>marié</option>
+                                     <option>CÃ©libataire</option>
+                                     <option>mariÃ©</option>
                                   </select>
                                </div>
 							   
@@ -155,7 +156,7 @@
  
                       </fieldset>
 					   <div class="form-group">
-                            <label class="col-md-6 control-label">régime horaire</label>
+                            <label class="col-md-6 control-label">rÃ©gime horaire</label>
                             <div class="col-md-8 inputGroupContainer">
                                <div class="input-group">
                                   <span class="input-group-addon" style="max-width: 100%;"><i class="glyphicon glyphicon-list"></i></span>
@@ -189,14 +190,14 @@
 						 <div class="form-group">
                             <label class="col-md-6 control-label">Prime Flex</label>
                             <div class="col-md-8 inputGroupContainer">
-                               <div class="input-group"><span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span><input id="prime_flex" name="" placeholder="Prime mensuelle" class="form-control" required="true" value="" type="text"></div>
+                               <div class="input-group"><span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span><input id="prime_flex" name="" placeholder="Prime Flex" class="form-control" required="true" value="" type="text"></div>
                             </div>
                          </div>
 
                          <div class="form-group">
-                            <label class="col-md-6 control-label">Jours Congé </label>
+                            <label class="col-md-6 control-label">Jours CongÃ© </label>
                             <div class="col-md-8 inputGroupContainer">
-                               <div class="input-group"><span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span><input id="conge" name="" placeholder="Jours conjées " class="form-control"  value="" type="text"></div>
+                               <div class="input-group"><span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span><input id="conge" name="" placeholder="Jours conjÃ©es " class="form-control"  value="" type="text"></div>
                             </div>
                          </div>
 
@@ -208,9 +209,9 @@
                          </div>
 
                          <div class="form-group">
-                            <label class="col-md-6 control-label">Taux d'intérêt </label>
+                            <label class="col-md-6 control-label">Taux d'intÃ©rÃªt </label>
                             <div class="col-md-8 inputGroupContainer">
-                               <div class="input-group"><span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span><input id="ti" name="interet" placeholder="Taux d'intérêt annuel" class="form-control" value="" type="text" ></div>
+                               <div class="input-group"><span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span><input id="ti" name="interet" placeholder="Taux d'intÃ©rÃªt annuel" class="form-control" value="" type="text" ></div>
                             </div>
 
                          </div>
@@ -247,7 +248,7 @@
       <div class="invalid-feedback">Veuiller remplir ce champ.</div>
     </div>
 <div class="form-group">
-    <label for="nh">Jours Congé: </label>
+    <label for="nh">Jours CongÃ©: </label>
       <input type="text" class="form-control" id="jc" placeholder="Entrer le coup d'heures" name="jc" required>
       <div class="valid-feedback">Valid.</div>
       <div class="invalid-feedback">Veuiller remplir ce champ.</div>
@@ -287,7 +288,7 @@
 
             <thead>
                <tr>
-                  <th>Désignation</th>
+                  <th>DÃ©signation</th>
                   <th>base</th>
                   <th>Taux</th>
                   <th>Gain</th>
@@ -306,7 +307,7 @@
                   <td>0</td>
                </tr>
                <tr>
-                  <td>Prime de présence</td>
+                  <td>Prime de prÃ©sence</td>
                   <td id="ppresence"></td>
                   <td>0.03</td>
                   <td id='presence_tot'></td>
@@ -328,7 +329,7 @@
                   <td>0</td>
                </tr>
                 <tr>
-                   <td>Jours fériés</td>
+                   <td>Jours fÃ©riÃ©s</td>
                    <td id="tjf"></td>
                    <td id="totjf"></td>
                    <td id="totjfs">38.16</td>
@@ -336,7 +337,7 @@
 
                  </tr>
                    <tr>
-                   <td>Congés Pris</td>
+                   <td>CongÃ©s Pris</td>
                    <td id="tconge"></td>
                    <td id="t_tot_conge"></td>
                    <td id="t_tot_conge_p"></td>
@@ -421,7 +422,7 @@
                  <td>24.06</td>
                </tr>
                <tr>
-                 <td ><strong> Net à payer</strong></td>
+                 <td ><strong> Net Ã  payer</strong></td>
                  <td></td>
                  <td></td>
                  <td></td>
