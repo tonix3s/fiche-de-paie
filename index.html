@@ -488,7 +488,7 @@
     var tot_jours_ferie= $('#tjf').text(n_jours_ferie);
     var tot_ticket_repas=jour_present*5;
 	
-    var irpp=(((salaire_imposable*12)-(salaire_imposable*12*0.1)-5000-taux_interet)*(26/100))/12;
+    var irpp=(((salaire_imposable*12)-(salaire_imposable*12*0.1)-5000-taux_interet)*(27/100))/12;
     if (irpp<0){irpp=0;}
     var net=salaire_imposable-tot_ticket_repas-irpp-ass_gr_sal-ass_gr_amp;
     var css=net*0.01;
