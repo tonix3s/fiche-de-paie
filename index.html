@@ -473,7 +473,8 @@
 	var ticket_repa_mens=1.11*6*jour_present;
 
 		if ($('#regime').val() == 'plien temps') {
-			 var x =173.33 ; var tot_jours_ferie_paye=n_jours_ferie*ch*1.053*8;}else {var x =121.33;var tot_jours_ferie_paye=n_jours_ferie*ch*1.053*5.6;}
+			 var x =173.33 ; var tot_jours_ferie_paye=n_jours_ferie*ch*1.053*8;var ass_gr_amp=173.333*ch*0.104*0.667;var ass_gr_sal=173.333*ch*0.104*0.333;}
+	  else {var x =121.33;var tot_jours_ferie_paye=n_jours_ferie*ch*1.053*5.6;var ass_gr_sal=121.33*ch*0.104*0.333;var ass_gr_sal=121.33*ch*0.104*0.333}
 	var prime_presence=nh*0.03;
   var taux_heure=nh/x;
     
