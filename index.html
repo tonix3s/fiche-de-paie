@@ -470,7 +470,7 @@
   // var ass_gr_amp=173.333*ch*0.104*0.667;
 //   var ass_gr_sal=173.333*ch*0.104*0.333;
     var jour_present=Number($('#jourp').val());
-	var ticket_repa_mens=1.25*6*jour_present;
+	var ticket_repa_mens=1.20*6*jour_present;
 
 		if ($('#regime').val() == 'plien temps') {
 			 var x =173.33 ; var tot_jours_ferie_paye=n_jours_ferie*ch*1.053*8;var ass_gr_amp=173.333*ch*0.104*0.667;var ass_gr_sal=173.333*ch*0.104*0.333;}
@@ -498,8 +498,8 @@
     var css=net*0.01;
     var net_tot=net-css;
     // add them and output it taux_trs ticket_repa_mens
-        $('#tot_taux_h').text(tot_heure);
-       $('#tconge').text(conge); 
+        $('#tot_taux_h').text(tot_heure.toFixed(2));
+       $('#tconge').text(conge.toFixed(2)); 
    $('#t_tot_conge').text(((ch*1.053)*8).toFixed(2)); 
    $('#t_tot_conge_p').text(tot_conge.toFixed(2)); 
        $('#totjf').text(((ch*1.053)*8).toFixed(2)); 
