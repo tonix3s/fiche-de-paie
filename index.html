@@ -484,7 +484,7 @@
     if (ind_transp_comp < 0){ind_transp_comp=0;}
     //var tot_brut=tot_heure+tot_sup+tot_conge+prime_presence+ind_transp+ind_transp_comp+prime+prime_flex+tot_jours_ferie_paye+ticket_repa_mens+ass_gr_amp;
     var tot_brut=tot_heure+tot_sup+tot_conge+prime_presence+ind_transp+ind_transp_comp+prime+prime_flex+tot_jours_ferie_paye+ticket_repa_mens+ass_gr_amp;
-    var salaire_imposable_cnss=tot_heure+tot_sup+tot_conge+prime_presence+ind_transp+ind_transp_comp+prime+prime_flex+tot_jours_ferie_paye+ticket_repa_mens;
+    var salaire_imposable_cnss=tot_heure+tot_sup+tot_conge+prime_presence+ind_transp+ind_transp_comp+prime+prime_flex+tot_jours_ferie_paye+(ticket_repa_mens*0.75);
     var cnss=(salaire_imposable_cnss*9.18)/100
     var salaire_imposable=tot_brut-cnss;
     var tot_jours_ferie= $('#tjf').text(n_jours_ferie);
