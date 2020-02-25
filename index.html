@@ -500,9 +500,9 @@
     // add them and output it taux_trs ticket_repa_mens
         $('#tot_taux_h').text(tot_heure);
        $('#tconge').text(conge); 
-   $('#t_tot_conge').text((ch*1.053)*8); 
-   $('#t_tot_conge_p').text(tot_conge); 
-       $('#totjf').text((ch*1.053)*8); 
+   $('#t_tot_conge').text((ch*1.053).toFixed(2)*8); 
+   $('#t_tot_conge_p').text(tot_conge.toFixed(2)); 
+       $('#totjf').text((ch*1.053).toFixed(2)*8); 
 	   $('#ind_trans').text(ind_transp.toFixed(2));
 	   $('#ind_trans_comp').text(ind_transp_comp.toFixed(2));
 	   $('#taux_trs').text(taux_heure);
